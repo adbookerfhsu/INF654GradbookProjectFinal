@@ -17,11 +17,16 @@ if ('serviceWorker' in navigator) {
         appId: "1:1000282152659:web:69ce8b19871768a4cefe26",
         measurementId: "G-Q8EVWMJQLX",
   };
+
+//locating the database with the document
+//const bibleGrades = document.querySelector('.')
+
     // Initialize Firebase
-		  firebase.initializeApp(firebaseConfig);
-      var auth = firebase.auth();
+		//  firebase.initializeApp(firebaseConfig);
+    //  var auth = firebase.auth();
   
   
+    /* 
     $(document).on("submit", "#btnSignUp", function(event) {
       event.preventDefault();
       var promise = auth.createUserWithEmailAndPassword(
@@ -59,4 +64,5 @@ if ('serviceWorker' in navigator) {
         window.alert("You are not Logged in. Please Register or Sign In");
         console.log("not logged in");
       }
-    });      
+    });  
+    */    
