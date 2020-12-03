@@ -1,0 +1,52 @@
+Changes from Assignment #3 to #4
+
+10-28-2020
+
+•	Changed the app name to Homeschool Gradebook Assistant
+•	Changed media screen to min-width 1300px; still needs tweaking
+
+•	Created gradebooksample.html
+•	Created jonathantranscript.html  - link from 
+•	Created noahtranscript.html
+•	Created tannersubjects.html
+        subjects off the tannersubjects.html 
+        Created tannersleep.html – 
+        Created tannereat.html
+        Created tannerplay.html
+
+•	Created button links to gradebooksample.html for every button on addsubject.html
+•	Studentlist.html created link for Tanner so buttons will work
+    o	Created tannersubjects.html
+    o	Created tannersleep.html
+    o	Created tannereat.html
+    o	Created tannerplay.html
+•	Studentlist.html created link for Noah so button will work 
+    o	Created noahtranscript.html 
+    o	Added link to add student button
+•	Changed title tag on every page to reflect name change
+
+
+
+
+
+NOTES:
+Addsubject.html - + sign creates bad page and makes page scroll on desktop responsive view – breaks at 1500px width fonts or icons not responsive
+Studentlist.html – student pics are too big and need to be smaller on desktop view – this may be fixed once the container for the body is sized in the media query.
+Noahtranscript.html  - needs a lock and alert pop up warning this is a final transcript and can’t be changed. Also need to add window() print js to the button so the image will print. Also need to center image.
+Login page – need to make forget username and pswd button work – add js or php for this
+Subjectlist.html – add subject
+Some of the buttons take the user to the new user side. These will be corrected once progressive features are added. Note: check all add buttons on the returning user side that they go to the correct pages on the logged in user side.
+Jjtranscript.html  - not sure how to make the grades entered into gradebook to transfer over to the transcript or just leave the transcript to fix later. Again need to center the image like Noah’s. Print transcript button will pop up an alert only that it will not print because it’s unofficial.
+Addsubjectelem.html – need to decide if I need to add statement about grades do not transfer into transcript, also for 7th grade as well. Could call those “transcript” records report cards. ??? Not sure about this.
+Schoolyear.html – old years need to be locked and show only “report card” – “No changes accepted” – current year could be labeled open or current.
+Addstudent.html – need to add a js to allow a picture to be uploaded to the student file
+
+Make desktop view look like an the ipad app on the screen
+Fix media query
+
+Not sure this may need to be php???
+Create Form for login.html
+Create form for register.html
+Create form for schoolinfo.html
+Create for for addstudent.html
+

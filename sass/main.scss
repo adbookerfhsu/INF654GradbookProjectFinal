@@ -1,0 +1,347 @@
+//Variable
+$lighttealcolor: #CBE8E9;
+$maintealcolor: #1f5b5d;
+$whitecolor: #ffffff;
+$lightshadow: #808080;
+$footerfont: Arial, sans-serif;
+$globalfont: 'Poppins', sans-serif;
+$headerfont: 'Chilanka', sans-serif;
+
+//Styles
+
+// possibly use max width - problems arise at more than 800px
+// look into the padding around the + symbols on the buttons
+// need to address the small font size in the larger screens above 1000px
+@media screen and (min-width: 1300px) {
+    body {
+        width: 75%;
+        margin: auto;
+    }
+}
+
+body {
+    background: $maintealcolor;
+    color: $maintealcolor;
+    font-family: $globalfont;
+    
+}
+
+/* Used on Login Page */
+div.headerdiv {
+    height: 4em;
+}
+/* Used on Login Page */
+.headerp {
+    width: 200px;
+    color: $whitecolor;
+    font-family: $globalfont;
+    font-size: 2em;
+    line-height: 90%;
+    display: inline-block;
+    text-align: center;
+    margin: 1vw auto;
+}
+
+/*Use on Login Page */
+.maindiv {
+    margin: 2em auto;
+}
+.maindiv p {
+    color: $whitecolor;
+    font-family: $globalfont;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+
+/* Icons */
+/* fa arrow left Used on LogIn Page */
+.fa-arrow-left {
+    display: inline;
+    margin-top: 0;
+    margin-left: 2vw;
+    width: 50px;
+    height: 50px;
+    color: $whitecolor;
+}
+
+.fa-sign-out {
+    display: inline;
+    margin-top: 0;
+    margin-left: 2vw;
+    width: 50px;
+    height: 50px;
+    color: $whitecolor;
+}
+
+.fa-check {
+    display: inline;
+    margin-top: 0;
+    margin-left: 2vw;
+    width: 50px;
+    height: 50px;
+    color: $whitecolor;
+}
+
+.fa-plus {
+    display: block;
+    margin: 25%;
+    color: $maintealcolor;
+}
+
+.fa-plus.update {
+    float: right;
+    margin: 2% auto;
+}
+
+
+/* Used on Index Page */
+#titleimg {
+   display: block;
+   margin: 0 auto;
+   max-width: 75%;
+}
+/* Used on Index Page */
+#booksimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    max-width: 75%;
+}
+
+.formbox {
+    margin: 2vw auto;
+    height: 60vh;
+    width: 90%;
+    background: $lighttealcolor;
+    /*box-shadow: 5px 5px $lightshadow;*/
+    
+}
+/* Used on login page */
+.loginformbox {
+    margin: 10% auto;
+    width: 90%;
+    background: $lighttealcolor;
+    font-size: 1em;
+    
+    /*box-shadow: 5px 5px $lightshadow;*/
+    
+}
+
+.formboxh1 {
+    font-size: 1.5em;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.formboxp {
+    border: 1px solid $maintealcolor;
+    background: $whitecolor;
+    padding: 2px;
+    width: 90%;
+    margin: 5% auto;
+}
+
+input {
+    border: none
+
+}
+
+.formboxp2 {
+    /*border: 2px solid $whitecolor;*/
+    background: $maintealcolor;
+    color: $whitecolor;
+    text-align: center;
+    margin: 3em auto;
+    padding: 1em;
+    font-size: .75em;
+    width: 75%;
+}
+
+.formboxp3 {
+    font-size: .7em;
+    text-align: center;
+}
+
+.studentbox {
+    margin: auto;
+    background: $maintealcolor;
+    width: 90%;
+    height: 60vh;
+}
+
+.studentplaceholder {
+    background: $whitecolor;
+    float: left;
+    width: 44%;
+    line-height: 3%;
+    margin: 2%;
+    padding: 1%;
+}
+
+.studentbox img {
+    width: 100%;
+}
+
+.studentname {
+    text-align: left;
+    font-size: .85em;
+}
+
+.studentgrade {
+    float: left;
+    font-size: .75em;    
+}
+
+.studentgpa {
+    float: right;
+    font-size: .75em;    
+}
+
+.tab {
+    width: 90%;
+    margin: 5% auto;
+    padding: 3%;
+    background: $lighttealcolor;
+}
+
+.gradetitle {
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
+}
+
+.chaptertitle {
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+
+.tab2 {
+    width: 85%;
+    margin: 2% auto;
+    padding: 3%;
+    background: $whitecolor;
+    border: 1px solid $maintealcolor;
+    font-size: .9em;
+}
+
+.tabname {
+    font-size: 1.1rem;
+    margin: 0 auto;
+
+}
+
+#addstudentbutton {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+#studentadd {
+    font-size: .7em;
+    text-align: center;
+}
+//used on Index page
+.lgbuttons {
+    display: block;
+    margin: auto;
+    background: $lighttealcolor;
+    color: $maintealcolor;
+    font-variant: small-caps;
+    font-size: 2rem;
+    width: 75%;
+    height: 40%;
+}
+
+.button {
+   text-align: center;
+   padding: .4em;
+   
+}
+
+.thinbutton {
+    display: block;
+    margin: 8% auto;
+    background: $lighttealcolor;
+    color: $maintealcolor;
+    font-variant: small-caps;
+    font-size: 35px;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Used on Login Page */
+.logIn {
+    display: block;
+    margin: auto;
+    background: $lighttealcolor;
+    color: $maintealcolor;
+    font-variant: small-caps;
+    font-size: 1.5rem;
+    width: 50%;
+    height: 50%;
+}
+
+.signUp {
+    display: block;
+    margin: auto;
+    background: $lighttealcolor;
+    color: $maintealcolor;
+    font-variant: small-caps;
+    font-size: 1.5rem;
+    width: 45%;
+    height: 50%;
+}
+
+.logOut {
+    display: block;
+    visibility: hidden;
+    margin: 5% auto;
+    background: $lighttealcolor;
+    color: $maintealcolor;
+    font-variant: small-caps;
+    font-size: 2rem;
+    width: 45%;
+    height: 50%;
+}
+
+#thanks {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: $whitecolor;
+    font-size: 1.2em;
+}
+
+.studentspecific {
+    font-size: .85em;
+    color: $whitecolor;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+    
+}
+
+
+/* Used on Index Page, LogIn Page */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-style: small-caps;
+    font-size: .75em;
+    color: $whitecolor;
+}
